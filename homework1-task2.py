@@ -2,7 +2,7 @@
 
 while True:
     
-    file_size = (input("Enter the file size in bytes:\n"))
+    file_size = input("Enter the file size in bytes:\n")
 
     try:
         file_size = int(file_size)
